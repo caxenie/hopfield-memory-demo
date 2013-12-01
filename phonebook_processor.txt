@@ -1,0 +1,36 @@
+Hopfield Network for phonebook learning and restoring.
+Content-Addressable-Memory behavior. 
+
+Simulate network for distorted number
+The data is represented as: 
+ Input | Output 
+ Name -> Number 
+
+TINA  -> ? 86'GV  |  TINA  -> 6843726
+
+ANTJE -> ?Z!ES-=  |  ANTJE -> 8034673
+
+LISA  ->  JK#XMG  |  LISA  -> 7260915
+
+Simulate network for distorted name
+The data is represented as: 
+ Input | Output 
+ Number -> Name
+
+6843726 -> ; 01,  |  6843726 -> TINA 
+
+8034673 -> &;A$T  |  8034673 -> ANTJE
+
+7260915 -> N";SE  |  7260915 -> LISA 
+
+Simulate network for distorted names and numbers
+The data is represented as: 
+ Input | Output 
+ Name -> Number 
+
+TINE  -> 1F&KV]:  |  TINA  -> 6843726
+
+ANNJE -> %VZAQ$>  |  ANTJE -> 8034673
+
+RITA  -> [)@)EK&  |  DIVA  -> 6060737
+
